@@ -5,9 +5,107 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #575757;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p {
+  margin: 0;
+  font-size: 13px;
+}
+
+button {
+  height: 30px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.btn {
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+
+.btn-primary {
+  background-color: mediumslateblue;
+}
+
+.btn-danger {
+  background-color: crimson;
+}
+
+.App {
+  width: 460px;
+  margin: 0 auto;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: inherit;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: all .2s;
+}
+
+
+nav a:hover {
+  color: #ffffff;
+  background-color: #464543;
+}
+
+nav a.active {
+  color: #ffffff;
+  background-color: #464543;
+}
+
+.contact {
+  padding: 7px 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #fff3f3;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 2px 1px rgb(0 0 0 / 6%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-name {
+  font-weight: bolder;
+  margin-bottom: 3px;
+}
+
+.contact-actions .btn {
+  margin-left: 5px;
+}
+
+.form-group {
+  margin: 5px;
+}
+
+.form-control {
+  display: inline;
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+
+.control-label {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.btn-group .btn {
+  margin-top: 10px;
+  margin: 5px;
 }
